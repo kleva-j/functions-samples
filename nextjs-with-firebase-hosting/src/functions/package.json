@@ -3,7 +3,7 @@
   "description": "Cloud Functions for Firebase",
   "version": "1.0.0",
   "dependencies": {
-    "next": "beta",
+    "next": "5.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "firebase-admin": "~7.1.1",
