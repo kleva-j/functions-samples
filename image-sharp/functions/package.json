@@ -5,7 +5,8 @@
     "@google-cloud/storage": "^0.8.0",
     "sharp": "^0.25.2",
     "firebase-admin": "~7.1.1",
-    "firebase-functions": "^2.2.1"
+    "firebase-functions": "^2.2.1",
+    "snyk": "^1.349.0"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
@@ -17,10 +18,13 @@
     "shell": "firebase experimental:functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": "8"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
