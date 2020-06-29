@@ -7,7 +7,8 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "firebase-admin": "~7.1.1",
-    "firebase-functions": "^2.2.1"
+    "firebase-functions": "^2.2.1",
+    "snyk": "^1.350.0"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
@@ -19,10 +20,13 @@
     "shell": "firebase experimental:functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "engines": {
     "node": "8"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
