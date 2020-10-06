@@ -2,9 +2,9 @@
   "name": "app",
   "version": "1.0.0",
   "dependencies": {
-    "next": "3.2.3",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2"
+    "next": "7.0.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
   },
   "scripts": {
     "dev": "next",
