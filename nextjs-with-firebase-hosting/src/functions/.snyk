@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.16.0
+version: v1.19.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -26,3 +26,22 @@ patch:
         patched: '2020-06-29T12:07:01.720Z'
     - next > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
         patched: '2020-06-29T12:07:01.720Z'
+    - next > webpack > micromatch > snapdragon > debug:
+        patched: '2020-10-06T11:56:04.339Z'
+    - next > webpack > micromatch > braces > snapdragon > debug:
+        patched: '2020-10-06T11:56:04.339Z'
+    - next > webpack > micromatch > extglob > snapdragon > debug:
+        patched: '2020-10-06T11:56:04.339Z'
+    - next > webpack > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-10-06T11:56:04.339Z'
+    - next > webpack > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-10-06T11:56:04.339Z'
+  SNYK-JS-LODASH-567746:
+    - next > @babel/core > lodash:
+        patched: '2020-10-06T11:56:04.339Z'
+    - next > autodll-webpack-plugin > lodash:
+        patched: '2020-10-06T11:56:04.339Z'
+    - next > webpackbar > lodash:
+        patched: '2020-10-06T11:56:04.339Z'
+    - next > webpackbar > table > lodash:
+        patched: '2020-10-06T11:56:04.339Z'
