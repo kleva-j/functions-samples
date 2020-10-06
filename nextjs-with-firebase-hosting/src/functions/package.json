@@ -3,12 +3,12 @@
   "description": "Cloud Functions for Firebase",
   "version": "1.0.0",
   "dependencies": {
-    "next": "7.0.0",
+    "next": "7.0.3",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "firebase-admin": "~7.1.1",
     "firebase-functions": "^2.2.1",
-    "snyk": "^1.350.0"
+    "snyk": "^1.410.0"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
