@@ -4,8 +4,8 @@
   "dependencies": {
     "firebase-admin": "^7.1.1",
     "firebase-functions": "^2.2.1",
-    "google-auth-library": "^1.6.1",
-    "googleapis": "^27.0.0"
+    "google-auth-library": "^3.0.0",
+    "googleapis": "^37.0.0"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
