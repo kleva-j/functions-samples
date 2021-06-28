@@ -2,7 +2,7 @@
   "name": "survey-app-update-function",
   "description": "Sends a survey via email to users who upgrade your app",
   "dependencies": {
-    "nodemailer": "^2.4.1",
+    "nodemailer": "^6.6.1",
     "firebase-admin": "~7.1.1",
     "firebase-functions": "^2.2.1"
   },
