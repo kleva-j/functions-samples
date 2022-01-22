@@ -2,7 +2,7 @@
   "name": "uppercase-quickstart-functions",
   "description": "Uppercaser Firebase Functions Quickstart sample",
   "dependencies": {
-    "firebase-admin": "~7.1.1",
+    "firebase-admin": "~10.0.2",
     "firebase-functions": "^2.2.1"
   },
   "devDependencies": {
