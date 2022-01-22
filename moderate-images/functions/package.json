@@ -4,7 +4,7 @@
   "dependencies": {
     "@google-cloud/vision": "^1.1.4",
     "child-process-promise": "^2.2.0",
-    "firebase-admin": "^8.2.0",
+    "firebase-admin": "^10.0.2",
     "firebase-functions": "^3.2.0",
     "mkdirp": "^0.5.1",
     "mkdirp-promise": "^4.0.0"
