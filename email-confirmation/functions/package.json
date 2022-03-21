@@ -3,7 +3,7 @@
   "description": "Send Email confirmation upon sign up to a Mailing list Firebase Functions sample",
   "dependencies": {
     "nodemailer": "^2.4.1",
-    "firebase-admin": "~7.1.1",
+    "firebase-admin": "~10.0.2",
     "firebase-functions": "^2.2.1"
   },
   "devDependencies": {
