@@ -3,7 +3,7 @@
   "description": "Sample functions that generate images on the backend",
   "dependencies": {
     "canvas-prebuilt": "1.*",
-    "express": "4.15.2",
+    "express": "4.17.3",
     "lodash": "4.17.4",
     "firebase-admin": "~7.1.1",
     "firebase-functions": "^2.2.1"
