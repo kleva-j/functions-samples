@@ -6,7 +6,7 @@
     "crypto": "0.0.3",
     "spotify-web-api-node": "^2.3.6",
     "firebase-admin": "~7.1.1",
-    "firebase-functions": "^2.2.1"
+    "firebase-functions": "^3.6.2"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
