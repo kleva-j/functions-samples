@@ -2,8 +2,8 @@
   "name": "lastmodified-tracking-functions",
   "description": "Track Lastmodified date of nodes Firebase Functions sample",
   "dependencies": {
-    "firebase-admin": "~7.1.1",
-    "firebase-functions": "^2.2.1"
+    "firebase-admin": "~11.4.1",
+    "firebase-functions": "^3.6.2"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
