@@ -4,7 +4,7 @@
   "dependencies": {
     "cookie-parser": "^1.4.3",
     "crypto": "0.0.3",
-    "spotify-web-api-node": "^2.3.6",
+    "spotify-web-api-node": "^4.0.0",
     "firebase-admin": "~7.1.1",
     "firebase-functions": "^2.2.1"
   },
