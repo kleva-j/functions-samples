@@ -2,7 +2,7 @@
   "name": "full-text-search",
   "description": "Full text search for Firestore",
   "dependencies": {
-    "algoliasearch": "^3.24.0",
+    "algoliasearch": "^4.0.0",
     "cors": "^2.8.4",
     "express": "^4.16.1",
     "firebase-admin": "~7.1.1",
