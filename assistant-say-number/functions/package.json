@@ -2,7 +2,7 @@
   "name": "assistant-say-numer-functions",
   "description": "Firebase Functions",
   "dependencies": {
-    "actions-on-google": "^1.0.7",
+    "actions-on-google": "^2.0.0",
     "firebase-admin": "~7.4.0",
     "firebase-functions": "^2.2.1"
   },
