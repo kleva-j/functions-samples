@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.16.0
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -26,3 +26,27 @@ patch:
         patched: '2020-06-29T12:07:01.720Z'
     - next > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > debug:
         patched: '2020-06-29T12:07:01.720Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - firebase-admin > @google-cloud/storage > teeny-request > https-proxy-agent:
+        patched: '2023-08-31T14:36:02.909Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: >-
+          firebase-admin > @google-cloud/storage > teeny-request >
+          https-proxy-agent
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > https-proxy-agent:
+        patched: '2023-08-31T14:36:02.909Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          google-auth-library > https-proxy-agent
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gaxios > https-proxy-agent:
+        patched: '2023-08-31T14:36:02.909Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          google-auth-library > gaxios > https-proxy-agent
+  SNYK-JS-LODASH-567746:
+    - firebase-admin > @google-cloud/storage > async > lodash:
+        patched: '2023-08-31T14:36:02.909Z'
+        id: SNYK-JS-LODASH-567746
+        path: firebase-admin > @google-cloud/storage > async > lodash

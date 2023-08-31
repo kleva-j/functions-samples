@@ -6,9 +6,9 @@
     "next": "7.0.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "firebase-admin": "~7.1.1",
+    "firebase-admin": "~9.0.0",
     "firebase-functions": "^2.2.1",
-    "snyk": "^1.350.0"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
@@ -21,7 +21,7 @@
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "yarn run snyk-protect"
   },
   "engines": {
